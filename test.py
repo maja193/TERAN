@@ -28,7 +28,7 @@ def main(opt, current_config):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('checkpoint', type=str, help="Checkpoint to load")
+    parser.add_argument('--checkpoint', type=str, help="Checkpoint to load")
     parser.add_argument('--size', type=str, choices=['1k', '5k'], default='1k')
     parser.add_argument('--config', type=str, default=None, help="Which configuration to use for overriding the checkpoint configuration. See into 'config' folder")
 
