@@ -35,7 +35,7 @@ if __name__ == '__main__':
     opt = parser.parse_args()
     if opt.config is not None:
         with open(opt.config, 'r') as ymlfile:
-            config = yaml.load(ymlfile)
+            config = yaml.load(file, Loader=yaml.FullLoader)
     else:
         config = None
     main(opt, config)
