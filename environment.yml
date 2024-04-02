@@ -146,7 +146,7 @@ dependencies:
     - pytorch-warmup==0.0.4
     - pytz==2018.9
     - pywavelets==1.1.1
-    - pyyaml==3.10
+    
     - pyzmq==18.1.0
     - ray==0.6.1
     - rdflib==4.2.2
